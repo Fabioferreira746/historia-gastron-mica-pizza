@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="pizza.png" type="image/x-icon">
+    <title>Histórias Gastronômicas</title>
+    <style>
+        @font-face {
+            font-family: título;
+            src: url(título.ttf);
+        }
+        @font-face {
+            font-family: texto;
+            src: url(texto.otf);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            text-align: center;
+            font-family: texto;
+        }
+
+        header {
+            font-family: título;
+            background-color: orangered;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none; 
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        main {
+            padding: 40px 20px;
+        }
+
+        h1, h2 {
+            font-family: título;
+        }
+
+        p {
+            font-size: 25px;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: orangered;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: darkred;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header id="topo">
+        <h1 class="t">Histórias Gastronômicas</h1>
+        <nav>
+            <ul>
+                <li><a href="#origens">Origens Antigas</a></li>
+                <li><a href="#moderna">Pizza Moderna</a></li>
+                <li><a href="#expansao">Expansão</a></li>
+                <li><a href="#hoje">A Pizza Hoje</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>História Da Pizza</h1>
+        <p>A história da pizza é bem interessante e cheia de influências culturais que atravessaram o tempo! A pizza, como a conhecemos hoje, tem suas origens na Itália, mas sua trajetória começou muito antes de chegar ao formato que amamos.</p>
+
+        <h2 id="origens">Origens Antigas</h2>
+        <p>O conceito de "pão com cobertura" existe há milênios, e diversas culturas antigas já usavam o pão como base para refeições. Egípcios e gregos tinham pratos semelhantes, como o plakous.</p>
+        <p>Na Roma antiga, havia o *picea*, um tipo de pão achatado com ervas e temperos, assado em pedras ou fornos.</p>
+        <div>
+            <img src="Pizza-img.jpg" alt="Imagem de uma pizza tradicional">
+        </div>
+
+        <h2 id="moderna">A Pizza Moderna: A Evolução na Itália</h2>
+        <p>A pizza moderna surgiu em Nápoles, no século 18, como uma refeição acessível e saborosa. A famosa Pizza Margherita nasceu em 1889 como homenagem à rainha Margherita, com ingredientes nas cores da bandeira italiana.</p>
+
+        <h2 id="expansao">A Expansão para o Mundo</h2>
+        <p>Com a imigração italiana para os EUA, a pizza cruzou fronteiras. Versões como a de Chicago e Nova York surgiram, e grandes redes como Domino’s e Pizza Hut ajudaram a popularizá-la.</p>
+
+        <h2 id="hoje">A Pizza Hoje</h2>
+        <p>Hoje, a pizza é mundialmente famosa, com variações em cada país. No Brasil, é parte importante da cultura alimentar. Em 2017, a pizza napolitana foi reconhecida como patrimônio cultural imaterial pela UNESCO.</p>
+    </main>
+
+    <footer>
+        <a href="#topo">Voltar para o início</a>
+    </footer>
+</body>
+</html>
