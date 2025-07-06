@@ -39,15 +39,3 @@ texto.otf (fonte do corpo do texto)
 pizza.png (ícone favicon)
 Pizza-img.jpg (imagem ilustrativa)
 Abra o arquivo index.html em qualquer navegador moderno.
-
-Exemplo de estrutura de arquivos
-bash
-Copiar
-Editar
-/seu-projeto/
-│
-├── index.html
-├── título.ttf
-├── texto.otf
-├── pizza.png
-└── Pizza-img.jpg
